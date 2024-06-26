@@ -29,25 +29,29 @@
 	<style>
         /* Scoped styles for the social-links section */
 
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            padding: 20px;
-            background-color: #f1f1f1; /* Optional: background color to visually separate the section */
-            border-radius: 10px; /* Optional: rounded corners for the section */
-        }
+		.social-links {
+			display: flex;
+			justify-content: center;
+			gap: 20px; /* This controls the space between the social links */
+			padding: 20px;
+			background-color: #f1f1f1; /* Optional: background color to visually separate the section */
+			border-radius: 10px; /* Optional: rounded corners for the section */
+		}
 
-        .social-links .link {
-            text-decoration: none; /* Remove underline from links */
-        }
+		.social-links .link {
+			text-decoration: none; /* Remove underline from links */
+			margin: 0 5px; /* Horizontal margin to space out the links */
+		}
 
-        .social-links .icon {
-            width: 60px; /* Icon size */
-            height: 60px; /* Icon size */
-            border-radius: 50%; /* Make the icons round */
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
+		.social-links .icon {
+			width: 60px; /* Icon size */
+			height: 60px; /* Icon size */
+			word-spacing: 750px;
+			border-radius: 50%; /* Make the icons round */
+			transition: transform 0.3s, box-shadow 0.3s;
+			margin: 0 10px; /* Horizontal margin to space out the icons */
+		}
+
 
     </style>
 </head>
@@ -304,6 +308,7 @@
                 <h3>Profiles</h3>
             </div>
             <div class="social-links">
+				<div class="row">
                 <a href="https://github.com/Anjali-Chitturi" class="link">
                     <img src="uploads/git.jpeg" alt="GitHub" class="icon">
 					<p>GitHub</p>
@@ -314,11 +319,11 @@
                 </a>
 				<a href="mailto:2100080087ai.ds@gmail.com" class="link">
                     <img src="uploads/mail.jpg" alt="Email" class="icon">
-					<p>mail</p>
+					<p>Mail</p>
                 </a>
                 <a href="https://www.kaggle.com/anjalichitturi" class="link">
                     <img src="uploads/kraggle.png" alt="Email" class="icon">
-					<p>Kraggle</p>
+					<p>Kaggle</p>
                 </a>
 				<a href="https://www.codechef.com/users/klu_2100080087" class="link">
                     <img src="uploads/codechef.jpg" alt="GitHub" class="icon">
@@ -337,6 +342,7 @@
 					<p>HackerRank</p>
                 </a>
             </div>
+			</div>
         </div>
     </div>
 
